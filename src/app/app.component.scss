@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 30%;
+  margin: 100px auto ;
+
+  .mdc-data-table__table {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .mat-mdc-row .mat-mdc-cell {
+    border: 1px solid transparent;
+  }
+  
+  .mat-mdc-row {
+    cursor: pointer;
+    transition: background-color 0.4s;
+    
+    &:hover .mat-mdc-cell {
+      background-color: rgb(244, 244, 246);
+    }
+
+  }
+
+  .audio-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .active{
+    background-color: rgb(227, 227, 230);
+  } 
+}
+
+
